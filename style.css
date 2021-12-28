@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid rgb(179, 4, 4);
+}
+
+.shape{
+    width: 400px;
+    height: 90vh;
+    background-color: rgb(179, 4, 4);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    position: absolute;
+    right: 10%;
+}
+
+.circle{ 
+    width: 400px;
+    height: 400px;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    background-image: url("pics/company.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+}
+
+.text{
+    position: absolute;
+    width: 30%;
+    left: 5%;
+    top: 20%;
+}
+
+.header-title{
+    font-size: 44px;
+}
+
+.txt{
+    font-size: 48px;
+    color: rgb(179, 4, 4);
+}
+
+.sub-title{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+}
+
+
+.media{
+    margin-top: 15px;
+    font-size: 24px;
+}
+.faP{
+    margin-right: 15px;
+    cursor: pointer;
+}
